@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neighbors Talk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">LOG IN</string>
+     
+    <string name="signup">SIGN UP</string>
+    <string name="usertext">USERNAME: </string>
+    <string name="passtext">PASSWORD: </string>
+    <string name="username">USERNAME HERE. </string>
+    <string name="password"></string>
+    <string name="pick_date">DATE</string>
+    <string name="password_edit"></string>
+    <string name="send">SEND</string>
+    <string name="nametxt">NAME: </string>
+    <string name="name">NAME HERE.</string>
+    <string name="done">DONE</string>
+    <string name="emailtxt">EMAIL: </string>
+    <string name="email">EMAIL HERE.</string>
+    <string name="gendertxt">GENDER: </string>
+    <string name="gender_select">CHOOSE A CITY</string>
+    <string name="birthdaytxt">BIRTHDAY: </string>
+    <string name="city_select">CHOOSE A CITY</string>
+    <string name="neighbor_select">CHOOSE A NEIGHBOR</string>
+    <string name="city">CITY: </string>
+    <string name="neighbor">NEIGHBOR: </string>
+    <string name="modif">EDIT</string>
+    <string name="hom">HOME</string>
+    <string name="save">SAVE</string>
+
+    <string-array name="city_array">
+        <item>BARRANQUILLA</item>
+    </string-array>
+    
+    <string-array name="city_array22">
+        <item>Barranquilla</item>
+        <item>Bogota</item>
+        <item>Cartagena</item>
+        <item>Cali</item>
+        <item>Medellin</item>
+        <item>Manizales</item>
+        <item>Santa Marta</item>
+    </string-array>
+    
+    <string-array name="neighbor_array">
+        <item>Altos de Riomar</item>
+        <item>Betania</item>
+        <item>Ciudad Jardín</item>
+        <item>Campo Alegre</item>
+        <item>Campo Alegre</item>
+        <item>El Tabor</item>
+        <item>El Country</item>
+        <item>El Recreo</item>
+        <item>El Prado</item>
+        <item>La Castellana</item>
+        <item>Las Delicias</item>
+        <item>Las Colinas</item>
+        <item>Las Mercedes</item>
+        <item>Los Nogales</item>
+        <item>Los Alpes</item>
+        <item>Miramar</item>
+        <item>Riomar</item>
+        <item> Villa Campestre</item>
+        <item> Villa Carolina</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>FEMALE</item>
+        <item>MALE</item>
+        
+    </string-array>
+
+    <string name="title_activity_alerts">Alerts</string>
+     <string name="title_activity_main">Neighbors Talk</string>
+    <string name="title_activity_app1">App1</string>
+    <string name="title_activity_app">Home</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_edit_my_events">Edit_myEvents</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_modify">EDIT PROFILE</string>
+    
+
+</resources>

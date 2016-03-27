@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginUser" >
+    
+ <TextView android:id="@+id/usertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     	android:text="@string/usertext" />
+
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/passtext"
+          android:layout_marginTop="35dp"
+          android:ems="10"
+          android:hint="@string/password"
+          android:inputType="textPassword" >
+
+          <requestFocus />
+      </EditText>
+
+      <TextView
+          android:id="@+id/passtext"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/password"
+          android:layout_below="@+id/username"
+          android:layout_marginTop="27dp"
+          android:text="@string/passtext" />
+
+      <EditText
+          android:id="@+id/username"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/passtext"
+          android:layout_below="@+id/usertext"
+          android:layout_marginTop="30dp"
+          android:ems="10"
+          android:hint="@string/username" />
+   
+       <Button
+              android:id="@+id/done"
+              style="@style/AppTheme"
+              android:layout_width="96dp"
+              android:layout_height="wrap_content"
+              android:layout_alignRight="@+id/Imagcontact"
+              android:layout_below="@+id/password"
+              android:layout_marginTop="23dp"
+              android:text="@string/login"
+              android:background="#009933"
+              android:textColor="#FFFFFF" />
+
+      <ImageView android:id="@+id/Imagcontact"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/done"
+	        android:contentDescription="@string/app_name"/>
+      
+</RelativeLayout>
